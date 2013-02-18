@@ -1,9 +1,9 @@
-#!bin/bash
+#!/bin/bash
 
 
 pkg_base="http://www.kodai74.net/packages"
 zab_base="${pkg_base}/zabbix/zabbix-2.0/rhel/6/x86_64"
-pkg_ver="2.0.4-1"
+pkg_ver="2.0.5-1"
 pkg_list="zabbix zabbix-agent zabbix-get zabbix-java-gateway zabbix-proxy zabbix-proxy-mysql zabbix-proxy-pgsql zabbix-proxy-sqlite3 zabbix-sender zabbix-server zabbix-server-mysql zabbix-server-pgsql"
 pkg_list_noarch="zabbix-web zabbix-web-japanese zabbix-web-mysql zabbix-web-pgsql"
 
